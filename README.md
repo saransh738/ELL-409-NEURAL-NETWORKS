@@ -1,15 +1,13 @@
 # NEURAL-NETWORKS
 ## OBJECTIVE
-To experiment with the use of Neural Networks for a multiclass classification problem, and try and interpret the high-level or hidden representations learnt by it. Also, to try and understand the effects of various parameter
-choices such as the number of hidden layers, the number of hidden neurons, and the learning rate.
+To experiment with the use of Neural Networks for a multiclass classification problem, and try and interpret the high-level or hidden representations learnt by it. Also, to try and understand the effects of various parameter choices such as the number of hidden layers, the number of hidden neurons, and the learning rate.
 
 ## PART 1(A):
 
 ### Data
 A personalised input file that contains 3000 images, each of size 28x28 pixels.Each row of this file corresponds to an image, and contains 785 comma-separated values. The first 784 are the grayscale pixel values, normalised to lie between 0 and 1 (ordering is row-major), and the last one gives the class label for the image (there are 10 classes, denoted by the labels 0 to 9).
 
-Your task is to try and learn a Neural Network classifier for these images, starting with the raw pixels as input features, and thereby also to assess the usefulness of the different representations that your Neural Network
-constructs. Here is how you should proceed:
+Your task is to try and learn a Neural Network classifier for these images, starting with the raw pixels as input features, and thereby also to assess the usefulness of the different representations that your Neural Network constructs. Here is how you should proceed:
 
 1. We would like you to do your own implementation as well as trying out a standard library for comparison.
   * Write your own implementation of a basic (fully connected) neural network for multiclass classification of the provided images: you essentially need to implement the backpropagation algorithm to be able
